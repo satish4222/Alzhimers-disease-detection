@@ -1,1 +1,105 @@
-Alzheimer's disease is a significant and growing challenge in the field of healthcare, characterized as a progressive neurodegenerative disorder that primarily affects memory, thinking, and behavior. It is caused by complex brain changes that occur over time, including the accumulation of amyloid plaques and tau tangles, which disrupt communication between neurons and ultimately lead to cell death. The impact of Alzheimer's extends beyond the individual, profoundly affecting families and caregivers, as it often results in severe cognitive decline and a loss of independence. Current estimates suggest that millions of individuals are living with Alzheimer's, leading to considerable healthcare costs and emotional burdens. Thus, the urgent need for accurate diagnosis, effective treatments, and supportive care systems is critical for improving the quality of life for those affected and advancing our understanding of this complex disease. Hence, the aim of this proposed study is to address a critical issue in Alzheimer's disease detection by implementing the VGG16 algorithm for feature extraction and EfficientNetB0 and Tiny-CNN for classification. The approach achieves an accuracy of 98.98% in detecting and classifying Alzheimer's disease, providing an effective solution for early diagnosis.
+# Alzheimer’s Disease Detection Using Deep Learning
+
+## Overview
+
+Alzheimer’s disease is a progressive neurological disorder that affects memory, thinking, and behavior. Early detection plays an important role in improving patient care and treatment planning. This project focuses on detecting Alzheimer’s disease at an early stage using deep learning techniques applied to brain MRI images.
+
+The system analyzes MRI scans and classifies them into different stages of Alzheimer’s disease using trained deep learning models.
+
+---
+
+## Objectives
+
+* To detect Alzheimer’s disease at an early stage
+* To analyze brain MRI images using deep learning
+* To classify different stages of Alzheimer’s disease
+* To evaluate model performance using standard metrics
+
+---
+
+## Dataset
+
+* Type: Brain MRI images
+* Classes:
+
+  * Non-Demented
+  * Very Mild Demented
+  * Mild Demented
+  * Moderate Demented
+* Source: Publicly available medical imaging datasets
+
+---
+
+## How the Program Works
+
+1. MRI brain images are collected from the dataset.
+2. Images are preprocessed by resizing and normalization.
+3. Data augmentation is applied to improve model performance.
+4. Deep learning models are trained on the processed images.
+5. The trained model predicts the stage of Alzheimer’s disease.
+6. Results are evaluated using accuracy and other metrics.
+
+---
+
+## Features
+
+* Uses deep learning for medical image analysis
+* Supports early-stage Alzheimer’s disease detection
+* Simple and structured workflow
+* Suitable for academic and learning purposes
+
+---
+
+## Technologies Used
+
+* Python
+* TensorFlow
+* PyTorch
+* NumPy
+* Pandas
+* OpenCV
+* Matplotlib
+* Seaborn
+* TensorBoard
+
+---
+
+## Requirements
+
+* Python 3.x
+* Required Python libraries as listed in requirements.txt
+
+---
+
+## How to Run
+
+1. Clone the repository or download the source code.
+2. Open a terminal or command prompt in the project directory.
+3. Install the required dependencies:
+
+   pip install -r requirements.txt
+4. Run the training or evaluation script:
+
+   python train.py
+
+---
+
+## Output
+
+The program classifies MRI images into Alzheimer’s disease stages and displays the prediction results.
+
+---
+
+## Future Scope
+
+* Integration of clinical and genetic data
+* Use of Vision Transformer models
+* Deployment as a web-based diagnostic system
+
+---
+
+## Authors
+
+Mandela Satish, Asutosh Tripathy, Sudanshu Das
+
+
