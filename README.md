@@ -102,4 +102,12 @@ The program classifies MRI images into Alzheimer’s disease stages and displays
 
 Mandela Satish, Asutosh Tripathy, Sudanshu Das
 
+---
+
+## Publication
+
+This project is inspired by the research work:
+
+[Early Detection of Alzheimer’s Disease Using Deep Learning — IEEE](https://ieeexplore.ieee.org/document/11042284)
+
 
